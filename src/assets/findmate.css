@@ -1,0 +1,47 @@
+.findmate{
+    /* background-color: red; */
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+
+}
+.side-nav{
+    width: 250px;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    background-color: #000028;    
+}
+ul{
+    margin: 15px;
+    padding: 10px;
+}
+.link{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-decoration: none;
+  color: #e83a64;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+}
+li{
+    list-style: none;
+}
+.link:hover{
+    background-color: #f18c53;
+  color: white;
+  border-radius: 7px;
+border: none;
+padding: 7px;
+outline: none;
+}
+.list{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    list-style: disc;
+    font-size: 17px;
+}

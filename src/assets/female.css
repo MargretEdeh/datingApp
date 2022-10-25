@@ -1,0 +1,135 @@
+.search-icon{
+    font-size: 40px;
+    color: white;
+    margin: 0 10px 0 0;
+}
+.search-bar{
+    /* border: 1px solid; */
+    padding: 8px;
+    width: 700px;
+    margin: 15px;
+    display: flex;
+    background-color: #f18c53;
+    justify-content: space-between;
+    border-radius: 30px;
+
+}
+.search{
+    padding: 5px;
+    margin: 0;
+}
+.user{
+    /* border: 1px solid; */
+    margin: 15px;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.female{
+    width: 80%;    
+}
+.each-user{
+    background-color: #f18c53;
+    border: none;
+    outline: none;
+display: flex;
+/* border: 1px solid; */
+margin: 10px;
+padding: 10px;
+height: 200px;
+border-radius: 25px;
+}
+.name{
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-shadow: 1px 2px 3px rgb(161, 161, 161);
+}
+.links{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: whitesmoke;
+padding: 8px;
+width: 55px;
+border-radius: 20px;
+}
+button:hover{
+    background-color: #f18c53;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+.button:disabled{
+    background-color: red;
+}
+.btn2{
+    padding: 10px ;
+    width: 150px;
+    background-color: #e83a64;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin: 7px;
+    font-size: 25px;
+    /* border-radius: 20px; */
+}
+.btn1{
+    padding: 15px;
+    text-align: center;
+    border:1px solid #f18c53;
+    font-weight: bold;
+
+    margin: 8px;
+    border-radius: 50%;
+}
+.btn1:hover{
+    font-size: 13px;
+}
+.links:hover{
+    background-color: #e83a64;
+    color: whitesmoke;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px 0  0 10px;
+}
+.pic{
+    border: 7px solid #e83a64;
+    border-radius: 50%;
+    outline: none;
+}
+.digit{
+    padding: 15px;
+    margin-top: 20px 10px 0 10px;
+    display: flex;
+
+}
+.img2{
+    margin: 0 10px 10px 20px;
+    width: 55em
+}
+.phone{
+    padding: 15px;
+    background-color: #e83a64;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 190px;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgb(190, 189, 189);
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
